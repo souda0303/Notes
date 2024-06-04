@@ -1,13 +1,6 @@
  ## Agenda
 
-* JS refresher
-* TypeOf Operator
-* Objects and JSON
-* JS Code Execution - Hoisting and Execution Context
-* Hoisting
-* Execution Context
-* let, var, and const:
-* Shadowing: legal and illegal
+* JS Promise
  
  
  ## JS Promise Chaining

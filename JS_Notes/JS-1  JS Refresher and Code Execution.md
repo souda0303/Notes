@@ -1,7 +1,7 @@
 ## Agenda
 
 * JS refresher
-* TypeOf Operator
+* TypeOf Operator [## Datatypes in JS]
 * Objects and JSON
 * JS Code Execution - Hoisting and Execution Context
 * Hoisting

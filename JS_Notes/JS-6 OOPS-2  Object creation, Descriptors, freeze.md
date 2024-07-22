@@ -408,7 +408,7 @@ console.log(object1.property1);
 Initially, we need to comprehend how does reassignment, creating, deleting, or updating a property works.
 
 Here's an example:
-```javascript!
+```javascript
 let config = {
     appName: "scaler.com",
     database: {
@@ -451,7 +451,7 @@ Let's look at some of the probable solutions that are actually not going to prev
 So, there's should be an alternative. We can prevent extensions with the help of `Object.preventExtensions()`.
 
 **Code:**
-```javascript!
+```javascript
 let config = {
     appName: "scaler.com",
     database: {
@@ -485,7 +485,7 @@ So, with `Object.preventExtensions()`, new properties cannot be added. However, 
 **The problem** with `Object.preventExtensions()` is that it would work only on the first level. Therefore, any new property can be created at the inner level.
 
 Here's an example:
-```javascript!
+```javascript
 let config = {
     appName: "scaler.com",
     database: {
@@ -521,7 +521,7 @@ console.log(unextendableObject);
 In order to prevent any deep extensions, we can manage to use `Object.preventExtensions()` for a particular property of an object.
 
 Here's an example for the password of the database:
-```javascript!
+```javascript
 let config = {
     appName: "scaler.com",
     database: {
